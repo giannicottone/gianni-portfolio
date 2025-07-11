@@ -1,3 +1,9 @@
 export default function Page() {
-  return <div className="text-xl font-bold">Projects Page</div>
+  return (
+    <div className="min-h-screen bg-background text-foreground flex items-center justify-center p-8">
+      <main className="text-center text-xl font-medium">
+        Prototype Projects
+      </main>
+    </div>
+  );
 }

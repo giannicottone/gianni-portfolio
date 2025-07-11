@@ -40,3 +40,10 @@ a {
     color-scheme: dark;
   }
 }
+
+@layer components {
+  /* Buttons */
+  .btn {
+    @apply rounded-md text-white bg-blue-600 hover:bg-blue-700 transition;
+  }
+}
