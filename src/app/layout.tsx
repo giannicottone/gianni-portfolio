@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Gianni Cottone – Portfolio",
-  description: "Full-stack developer building modern web apps with Next.js, TypeScript, and Tailwind CSS.",
+  description: "Portfolio Webpage for Gianni Cottone",
 };
 
 export default function RootLayout({
