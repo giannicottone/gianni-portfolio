@@ -14,11 +14,17 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Gianni Cottone – Portfolio",
-  description: "Portfolio Webpage for Gianni Cottone",
+export const metadata = {
+  metadataBase: new URL("https://giannicottone.dev"),
+  title: { default: "Gianni Cottone — Software Engineer", template: "%s — Gianni Cottone" },
+  description: "Gianni Cottone – Software Engineer specializing in Go & TypeScript. Explore projects in distributed systems, APIs & modern web development",
+  openGraph: {
+    type: "website",
+    siteName: "Gianni Cottone",
+  },
+  alternates: { canonical: "/" },
+  robots: { index: true, follow: true },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
