@@ -27,8 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body className="bg-background text-foreground font-sans">
-        <Navbar />
-        <main className="px-6 py-10">{children}</main>
+        <main className="centered">{children}</main>
         <Footer />
       </body>
     </html>

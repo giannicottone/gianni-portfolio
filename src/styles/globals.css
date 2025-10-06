@@ -43,7 +43,11 @@ a {
 
 @layer components {
   /* Buttons */
-  .btn {
-    @apply basis-1/4 rounded-none text-center text-white bg-blue-600 hover:bg-blue-700 transition;
-  }
+.btn {
+  @apply basis-1/4 rounded-none text-center text-white bg-blue-600 hover:bg-blue-700 transition;
+}
+.centered {
+  @apply flex flex-col items-center justify-center text-center min-h-screen px-6;
+}
+
 }
