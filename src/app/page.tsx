@@ -14,8 +14,7 @@ export default function Home() {
         <p>
         TypeScript · Next.js · Go · Python · Java · C  · MySQL · PHP
         </p>
-        
-        <div className="flex justify-center gap-3">
+        <nav className="flex justify-center gap-3">
           <Link
             href="/projects"
             className="btn rounded"
@@ -28,7 +27,7 @@ export default function Home() {
           >
             Contact
           </Link>
-        </div>
+        </nav>
       </section>
     </main>
   );
