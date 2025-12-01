@@ -6,7 +6,7 @@ export default function Home() {
     <main>
       <section>
         <p>
-        Hi, I&rsquo;m Gianni Cottone 
+        Hi, I{"'"}m Gianni Cottone 
         </p>
         <h1 className="font-bold text-3xl">
         Full-Stack Developer + Distributed Systems Engineer
