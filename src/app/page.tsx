@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
       <div className = "flex flex-auto items-center justify-center">
+        
       <section className ="text-center">
         <p>
         Hi, I{"'"}m Gianni Cottone 
@@ -22,6 +23,7 @@ export default function Home() {
             Contact
           </Link></nav>
       </section>
+
       </div>
   );
 }
