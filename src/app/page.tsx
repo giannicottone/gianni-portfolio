@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
-      <section>
+      <div className = "flex flex-auto items-center justify-center">
+      <section className ="text-center">
         <p>
         Hi, I{"'"}m Gianni Cottone 
         </p>
@@ -15,20 +15,13 @@ export default function Home() {
         TypeScript · Next.js · Go · Python · Java · C  · MySQL · PHP
         </p>
         <nav className="flex justify-center gap-3">
-          <Link
-            href="/projects"
-            className="btn rounded"
-          >
+          <Link href="/projects" className="btn rounded">
             View Projects
           </Link>
-          <Link
-            href="/contact"
-            className="btn rounded"
-          >
+          <Link href="/contact" className="btn rounded">
             Contact
-          </Link>
-        </nav>
+          </Link></nav>
       </section>
-    </main>
+      </div>
   );
 }

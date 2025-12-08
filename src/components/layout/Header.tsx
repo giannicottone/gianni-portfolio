@@ -1,11 +1,14 @@
 //Header Component, Still unusure if i'll put navigation here
+
+import Link from "next/link";
+
 export default function Header() {
   return (
-    <header className="mt-16 border-b">
+    <header className="border-b">
     <div>
-      <a href="/" className="text-xl font-semibold">
+      <Link href="/" className="text-xl font-semibold">
         Gianni Cottone
-      </a>
+      </Link>
     </div>
     </header>
   );

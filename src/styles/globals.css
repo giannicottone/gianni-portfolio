@@ -14,7 +14,6 @@
 
 html,
 body {
-  max-width: 100vw;
   overflow-x: hidden;
 }
 
@@ -27,12 +26,6 @@ body {
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,11 +36,10 @@ a {
 
 @layer components {
   /* Buttons */
-.btn {
-  @apply basis-1/4 rounded-none text-center text-white bg-blue-600 hover:bg-blue-700 transition;
+  
+  .btn {
+  @apply basis-1/4 rounded-none text-white bg-blue-600 hover:bg-blue-700 transition;
 }
-.centered {
-  @apply flex flex-col items-center justify-center text-center min-h-screen px-6;
+  /* Tailwind Stylings */
 }
 
-}
