@@ -37,7 +37,7 @@ body {
 @layer components {
   /* Buttons */
   .btn {
-  @apply basis-1/4 rounded-none text-white bg-blue-600 hover:bg-blue-700 transition;
+  @apply basis-1/4 rounded text-white bg-blue-600 hover:bg-blue-700 transition;
 }
   /* Tailwind Stylings */
 }
