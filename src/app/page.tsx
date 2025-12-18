@@ -20,6 +20,7 @@ export default function Home() {
         </p>
 
         <nav className="flex justify-center gap-3">
+          
           <Link href="/projects" className="btn">
             View Projects
           </Link>

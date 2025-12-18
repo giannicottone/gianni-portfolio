@@ -1,4 +1,4 @@
-//Header Component, Still unusure if i'll put navigation here
+//Header Component
 
 import Link from "next/link";
 
