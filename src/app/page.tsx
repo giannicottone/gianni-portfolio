@@ -16,7 +16,7 @@ export default function Home() {
         </h1>
 
         <p>
-        TypeScript · Next.js · Go · Python · Java · C  · MySQL · PHP
+        C · Go · Java · Python · TypeScript · Next.js · MySQL · PHP
         </p>
 
         <nav className="flex justify-center gap-3">
