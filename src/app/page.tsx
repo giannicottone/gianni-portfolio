@@ -14,11 +14,22 @@ export default function Home() {
         <h1 className="font-bold text-3xl">
         Full-Stack Developer + Distributed Systems Engineer
         </h1>
-
-        <p>
-        C · Go · Java · Python · TypeScript · Next.js · MySQL · PHP
-        </p>
-
+       {/* https://tailwindcss.com/docs/hover-focus-and-other-states pseudo-elements and child-selectors are amazing*/}
+       <ul className="flex flex-wrap justify-center 
+       *:after:content-['|'] 
+       *:after:mx-2 
+       *:last:after:content-none"
+       >
+        <li>C </li>
+        <li>Go</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>TypeScript</li>
+        <li>Next.js</li>
+        <li>MySQL</li>
+        <li>PHP</li>
+      </ul>
+      
         <nav className="flex justify-center gap-3">
           
           <Link href="/projects" className="btn basis-1/4">
