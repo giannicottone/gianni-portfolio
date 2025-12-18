@@ -21,10 +21,10 @@ export default function Home() {
 
         <nav className="flex justify-center gap-3">
           
-          <Link href="/projects" className="btn">
+          <Link href="/projects" className="btn basis-1/4">
             View Projects
           </Link>
-          <Link href="/contact" className="btn">
+          <Link href="/contact" className="btn basis-1/4">
             Contact
           </Link>
         </nav>
