@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className="font-bold text-3xl">
         Full-Stack Developer + Distributed Systems Engineer
         </h1>
-       {/* https://tailwindcss.com/docs/hover-focus-and-other-states pseudo-elements and child-selectors are amazing*/}
+        
        <ul className="flex flex-wrap justify-center 
        *:after:content-['|'] 
        *:after:mx-2 
