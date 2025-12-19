@@ -5,16 +5,16 @@ export default function Home() {
   return (
      <div className="flex flex-1 items-center justify-center">
 
-      <section className="space-y-2 text-center">
+      <section className="space-y-1.5 text-center">
 
         <p>
         Hi, I{"'"}m Gianni Cottone 
         </p>
 
         <h1 className="font-bold text-3xl">
-        Full-Stack Developer + Distributed Systems Engineer
+        Distributed Systems Engineer
         </h1>
-        
+
        <ul className="flex flex-wrap justify-center 
        *:after:content-['|'] 
        *:after:mx-2 
@@ -39,6 +39,13 @@ export default function Home() {
             Contact
           </Link>
         </nav>
+
+        <p className="mx-auto max-w-xl">
+          I enjoy backend work, but I'm comfortable moving across the stack.<br/>
+          I care about keeping systems simple, smart, and easy to work on over time. 
+        </p> 
+        
+
 
       </section>
 
