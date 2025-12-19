@@ -41,8 +41,10 @@ export default function Home() {
         </nav>
 
         <p className="mx-auto max-w-xl">
-          I enjoy backend work, but I'm comfortable moving across the stack.<br/>
+          I enjoy backend work, but I'm comfortable moving across the stack.
+          <span className="block"> 
           I care about keeping systems simple, smart, and easy to work on over time. 
+          </span>
         </p> 
         
 
