@@ -1,15 +1,7 @@
-async function getLastUpdated() {
-  const res = await fetch(
-    "https://api.github.com/repos/giannicottone/gianni-portfolio/commits?per_page=1",
-    { next: { revalidate: 3600 } }
-  );
-
-  const data = await res.json();
-  return new Date(data[0].commit.author.date);
-}
+export const dynamic = "force-dynamic";
 
 export default async function Footer() {
-  const lastUpdated = await getLastUpdated();
+  const deployedAt = new Date();
   const TIME_ZONE = "America/New_York";
 
 
@@ -22,8 +14,8 @@ export default async function Footer() {
     </p>
     <p>
       Last updated{" "}
-      {lastUpdated.toLocaleDateString("en-US", { timeZone: TIME_ZONE })} at{" "}
-      {lastUpdated.toLocaleTimeString("en-US", { timeZone: TIME_ZONE })} Eastern Time
+      {deployedAt.toLocaleDateString("en-US", { timeZone: TIME_ZONE })} at{" "}
+      {deployedAt.toLocaleTimeString("en-US", { timeZone: TIME_ZONE })} Eastern Time
     </p>
     </div>
     </footer>
