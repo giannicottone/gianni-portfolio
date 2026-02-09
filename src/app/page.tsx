@@ -47,7 +47,23 @@ export default function Home() {
           </span>
         </p> 
         
-
+        <div className="mt-6 flex gap-4 text-sm">
+        <Link
+          href="https://www.linkedin.com/in/gianni-cottone/"
+          rel="noopener noreferrer"
+          className="hover:text-neutral-400 underline underline-offset-4"
+        >
+          My LinkedIn
+        </Link>
+        <p>{"<--"} Check out these links while I work on this website{"-->"}</p>
+        <Link
+          href="https://github.com/giannicottone"
+          rel="noopener noreferrer"
+          className="hover:text-neutral-400 underline underline-offset-4"
+        >
+          My GitHub
+        </Link>
+        </div>
 
       </section>
 
