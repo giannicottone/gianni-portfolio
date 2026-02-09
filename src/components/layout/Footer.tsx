@@ -23,7 +23,7 @@ export default async function Footer() {
     <p>
       Last updated{" "}
       {lastUpdated.toLocaleDateString("en-US", { timeZone: TIME_ZONE })} at{" "}
-      {lastUpdated.toLocaleTimeString("en-US", { timeZone: TIME_ZONE })}
+      {lastUpdated.toLocaleTimeString("en-US", { timeZone: TIME_ZONE })} Eastern Time
     </p>
     </div>
     </footer>
