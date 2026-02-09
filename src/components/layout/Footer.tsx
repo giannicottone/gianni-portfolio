@@ -10,6 +10,8 @@ async function getLastUpdated() {
 
 export default async function Footer() {
   const lastUpdated = await getLastUpdated();
+  const TIME_ZONE = "America/New_York";
+
 
   return (
     <footer className="mt-16 border-t border-neutral-800">
@@ -19,9 +21,9 @@ export default async function Footer() {
       Built with Next.js, TypeScript, and Tailwind CSS.
     </p>
     <p>
-          Last updated{" "}
-          {lastUpdated.toLocaleDateString()} at{" "}
-          {lastUpdated.toLocaleTimeString()}
+      Last updated{" "}
+      {lastUpdated.toLocaleDateString("en-US", { timeZone: TIME_ZONE })} at{" "}
+      {lastUpdated.toLocaleTimeString("en-US", { timeZone: TIME_ZONE })}
     </p>
     </div>
     </footer>
