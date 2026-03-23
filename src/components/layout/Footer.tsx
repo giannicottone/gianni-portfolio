@@ -9,6 +9,7 @@ export default async function Footer() {
     <footer className="border-t border-neutral-800">
     <div>
     <div>
+    <div>
     <p>© {new Date().getFullYear()} Gianni Cottone.</p>
     <p>
       Built with Next.js, TypeScript, and Tailwind CSS.
