@@ -6,7 +6,7 @@ export const metadata = {
   robots: { index: false, follow: false },
 };
 
-export default function DevtestPage() {
+export default function Page() {
   if (process.env.NODE_ENV === "production") notFound();
   return (
     <div>
