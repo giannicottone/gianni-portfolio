@@ -1,4 +1,4 @@
-Updated 12/12/25 to better reflect intentions and current workflow
+Updated 3/23/26 to better reflect intentions and current workflow
 
 # Gianni Cottone – Portfolio Website
 
@@ -39,14 +39,10 @@ This project is being built incrementally, with structure prioritized before pol
 - Optional dynamic features as the site matures
 
 
-## Branching & Workflow
-
-Development follows an iterative, Agile-inspired workflow focused on small, incremental improvements.
-
-- `main` is the only long-lived branch and always reflects a stable state
-- Work is done on short-lived feature branches scoped to a single change or improvement
-- Feature branches are rebased onto `main` to maintain a linear history
-- Branches are deleted after merge to avoid stale context
-
+## Workflow
+- Development is iterative and focused on steady progress.
+- Work is done directly on main
+- Changes are committed and pushed in small, focused increments
+- Emphasis is placed on clarity, maintainability, and correctness over strict process
 
 This repository reflects an ongoing effort to balance clean structure, practical engineering decisions, and gradual refinement.
