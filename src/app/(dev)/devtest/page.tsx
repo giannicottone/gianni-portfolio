@@ -8,5 +8,11 @@ export const metadata = {
 
 export default function DevtestPage() {
   if (process.env.NODE_ENV === "production") notFound();
-  return <div>Devtest</div>;
+  return (
+    <div>
+      <p>One</p>
+      <p>Two</p>
+      <p>Three</p>
+    </div>
+  );
 }

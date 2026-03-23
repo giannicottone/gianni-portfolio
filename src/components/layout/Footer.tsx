@@ -6,7 +6,7 @@ export default async function Footer() {
 
 
   return (
-    <footer className="mt-16 border-t border-neutral-800">
+    <footer className="border-t border-neutral-800">
     <div>
     <div>
     <p>© {new Date().getFullYear()} Gianni Cottone.</p>
