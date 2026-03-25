@@ -5,26 +5,16 @@ import ProjectCard from "@/components/cards/ProjectCard";
 export default function Projects() {
   return (
     <Section>
-      <SectionHeader title="Selected Work" />
+      <SectionHeader title="Featured Work" />
 
-      <div className="space-y-8">
+      <div className="space-y-4">
         <ProjectCard
-          title="Market Pulse"
-          description="Interest detection tool using multi-source signals."
+          title="In Progress"
+          description="Actively building new work to showcase."
           details={[
-            "Handled data bias across sources",
-            "Adjusted scoring model for realism",
-            "Focused on signal reliability over raw volume",
-          ]}
-        />
-
-        <ProjectCard
-          title="Distributed Message Service"
-          description="Concurrent TCP messaging system using Go."
-          details={[
-            "Maintains ordering per connection",
-            "Supports concurrent message handling",
-            "Focus on safe shutdown and resource management",
+            "Focused on real-world use cases",
+            "Prioritizing reliability and clarity",
+            "Will be updated as projects ship",
           ]}
         />
       </div>
