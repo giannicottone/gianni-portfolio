@@ -1,19 +1,18 @@
-import Hero from "@/components/ui/Hero";
-import { LeftSidebar } from "@/components/ui/LeftSidebar";
-import { RightSidebar } from "@/components/ui/RightSidebar";
+import Container from "@/components/ui/Container";
+import Hero from "@/components/sections/Hero";
+import Philosophy from "@/components/sections/Philosophy";
+import Projects from "@/components/sections/Projects";
+import Process from "@/components/sections/Process";
+import Now from "@/components/sections/Now";
 
-export default function Page() {
+export default function JuniorPage() {
   return (
-    <>
-      {/* Hero BREAKS OUT */}
+    <Container>
       <Hero />
-
-      {/* Everything else constrained with sidebars */}
-      <div className="mx-auto max-w-7xl px-4 flex gap-8">
-        <main className="flex-1">
-          {/* rest of content */}
-        </main>
-      </div>
-    </>
+      <Philosophy />
+      <Projects />
+      <Process />
+      <Now />
+    </Container>
   );
 }
