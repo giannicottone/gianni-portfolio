@@ -49,7 +49,7 @@ export default function HomePage() {
       <section className="space-y-4">
         <h2 className="text-2xl font-semibold">About</h2>
         <p className="text-gray-600 max-w-2xl">
-          I’m a computer science graduate with a focus on distributed systems and backend development.
+          I{"'"}m a computer science graduate with a focus on distributed systems and backend development.
           I enjoy building systems that are correct, scalable, and easy to reason about.
         </p>
       </section>
