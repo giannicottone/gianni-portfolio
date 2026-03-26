@@ -1,4 +1,5 @@
 import Hero from "@/components/sections/Hero";
+import Me from "@/components/sections/Me";
 import Now from "@/components/sections/Now";
 import Projects from "@/components/sections/Projects";
 import HowIOperate from "@/components/sections/ThisIsTheWay";
@@ -20,10 +21,11 @@ const socialLinks = [
 export default function HomePage() {
   return (
    <Container>
-        <Hero />
-        <HowIOperate />
-        <Projects />
-        <Now />
+      <Me />
+      <Hero />
+      <HowIOperate />
+      <Projects />
+      <Now />
     </Container>
   );
 }
