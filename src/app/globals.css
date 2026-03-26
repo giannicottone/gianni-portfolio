@@ -40,5 +40,20 @@ body {
   @apply rounded text-white bg-blue-600 hover:bg-blue-700 transition;
 }
   /* Tailwind Stylings */
+  .text-hero {
+  @apply text-4xl md:text-5xl font-bold  leading-tight;
+  }
+
+  .text-section {
+  @apply text-2xl sm:text-3xl font-semibold tracking-tight;
+    }
+
+  .text-body {
+  @apply text-base text-gray-800 leading-relaxed;
+  }
+
+  .text-muted {
+  @apply mt-4 text-lg max-w-md text-gray-500;
+  }
 }
 

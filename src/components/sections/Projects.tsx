@@ -6,7 +6,6 @@ export default function Projects() {
   return (
     <Section>
       <SectionHeader title="Featured Work" />
-
       <div className="space-y-4">
         <ProjectCard
           title="In Progress"

@@ -12,12 +12,12 @@ export default function ProjectCard({
       <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
         {/* LEFT */}
         <div className="max-w-md">
-          <h3 className="text-xl font-semibold">{title}</h3>
-          <p className="text-muted-foreground mt-2">{description}</p>
+          <h3 className="text-lg font-semibold">{title}</h3>
+          <p className="text-muted mt-2">{description}</p>
         </div>
 
         {/* RIGHT */}
-        <ul className="text-sm text-muted-foreground space-y-1">
+        <ul className="space-y-1">
           {details.map((d, i) => (
             <li key={i}>• {d}</li>
           ))}

@@ -5,8 +5,7 @@ export default function Now() {
   return (
     <Section>
       <SectionHeader title="Right Now" />
-
-      <ul className="text-muted-foreground space-y-2 max-w-2xl">
+      <ul className="text-body space-y-2">
       <li>
         • Learning new technologies with a focus on underlying systems and behavior
       </li>
