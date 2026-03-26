@@ -3,7 +3,6 @@ import Now from "@/components/sections/Now";
 import Projects from "@/components/sections/Projects";
 import HowIOperate from "@/components/sections/ThisIsTheWay";
 import Container from "@/components/ui/Container";
-import Link from "next/link";
 
 const socialLinks = [
   {
