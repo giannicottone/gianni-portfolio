@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Section from "../ui/Section";
 
 const me = <Image
   src="/Me.jpg"
@@ -10,7 +11,7 @@ const me = <Image
 
 export default function Me() {
   return (
-    <section className="py-20">
+    <Section>
       <div className="px-4 flex flex-col md:flex-row items-center gap-12">
         {/* LEFT: Image */}
         <div className="flex-1 flex justify-center">
@@ -37,6 +38,6 @@ export default function Me() {
 
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
