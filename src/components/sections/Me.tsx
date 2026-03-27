@@ -9,6 +9,7 @@ const me = <Image
   className="rounded-2xl shadow-md"
 />
 
+const interests = <ul> </ul>
 export default function Me() {
   return (
     <Section>
@@ -23,7 +24,7 @@ export default function Me() {
           <div>
             <h2 className="text-section">Hi, I{"'"}m Gianni</h2>
             <p className="text-body">
-              Based in New York. [Insert Background Here]
+              Based in New York. I graduated with a B.S in Computer Science from University at Buffalo in Spring of 2025 with a focus on software development. I'm excited to learn new tools and work on industry solutions.
             </p>
           </div>
           {/* Interests */}
@@ -32,7 +33,7 @@ export default function Me() {
               Interests
             </p>
             <p className="text-body">
-              [Insert Interests Here].
+              Horror Movies · Cycling · Escape Rooms · Fighting Games
             </p>
           </div>
 
