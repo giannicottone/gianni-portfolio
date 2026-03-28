@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <Section>
       <SectionHeader title="Featured Work" />
-      <div className="space-y-4">
+      <div className="flex flex-col gap-4">
         <ProjectCard
           title="In Progress"
           description="Actively building new work to showcase."

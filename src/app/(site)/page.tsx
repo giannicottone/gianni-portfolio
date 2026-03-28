@@ -3,7 +3,6 @@ import Me from "@/components/sections/Me";
 import Now from "@/components/sections/Now";
 import Projects from "@/components/sections/Projects";
 import HowIOperate from "@/components/sections/ThisIsTheWay";
-import Container from "@/components/ui/Container";
 
 const socialLinks = [
   {
@@ -20,12 +19,12 @@ const socialLinks = [
 
 export default function HomePage() {
   return (
-   <Container>
+    <>
       <Me />
       <Hero />
       <HowIOperate />
       <Projects />
       <Now />
-    </Container>
+    </>
   );
 }
