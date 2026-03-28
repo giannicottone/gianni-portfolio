@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Section from "../ui/Section";
+import SectionHeader from "../ui/SectionHeader";
 
 export default function Me() {
   return (
     <Section>
-      <div className="flex flex-col md:flex-row items-center gap-12">
+      <div className="flex flex-col md:flex-row items-center">
         {/* LEFT: Image */}
         <div className="flex-1 flex justify-center">
           <Image
@@ -19,8 +20,8 @@ export default function Me() {
         {/* RIGHT: Content */}
         <div className="flex-1 flex flex-col gap-6">
           {/* Identity */}
-          <div className="flex flex-col gap-2">
-            <h2 className="text-section">Hi, I{"'"}m Gianni</h2>
+          <div className="flex flex-col">
+            <SectionHeader title = "Hi, I'm Gianni"/>
             <p className="text-body">
               Based in New York. I graduated with a B.S in Computer Science from University at Buffalo in Spring of 2025 with a focus on software development. I'm excited to learn new tools and work on industry solutions.
             </p>
