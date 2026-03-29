@@ -9,7 +9,7 @@ export default function Me() {
         {/* LEFT: Image */}
         <div className="flex-1 flex justify-center">
           <Image
-            src="/Me.jpg"
+            src="/ProfilePicture.jpeg"
             alt="Gianni Cottone"
             width={400}
             height={500}
@@ -23,7 +23,7 @@ export default function Me() {
           <div className="flex flex-col">
             <SectionHeader underline title = "Hi, I'm Gianni"/>
             <p className="text-body">
-              Based in New York. I graduated with a B.S in Computer Science from University at Buffalo in Spring of 2025 with a focus on software development. I'm excited to learn new tools and work on industry solutions.
+              Based in New York. I graduated with a B.S in Computer Science from University at Buffalo in Spring of 2025 with a focus on software development. I&apos;m excited to learn new tools and work on industry solutions.
             </p>
           </div>
 

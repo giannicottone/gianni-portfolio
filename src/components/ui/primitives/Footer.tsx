@@ -1,6 +1,4 @@
 import ComponentWrapper from "../structure/ComponentWrapper";
-import Container from "../structure/Container";
-import Surface from "../structure/Surface";
 
 export default async function Footer() {
   const deployedAt = new Date();
@@ -9,8 +7,7 @@ export default async function Footer() {
 
   return (
     <footer className="text-body">
-    <Container>
-      <Surface>
+    <ComponentWrapper>
     <p>© {new Date().getFullYear()} Gianni Cottone.</p>
     <p>
       Built with Next.js, TypeScript, and Tailwind CSS.
@@ -20,8 +17,7 @@ export default async function Footer() {
       {deployedAt.toLocaleDateString("en-US", { timeZone: TIME_ZONE })} at{" "}
       {deployedAt.toLocaleTimeString("en-US", { timeZone: TIME_ZONE })} Eastern Time
     </p>
-    </Surface>
-    </Container>
+    </ComponentWrapper>
     </footer>
   );
 }

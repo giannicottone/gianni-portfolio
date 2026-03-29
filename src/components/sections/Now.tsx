@@ -1,4 +1,3 @@
-import Section from "@/components/ui/structure/Section";
 import SectionHeader from "@/components/ui/primitives/SectionHeader";
 import ComponentWrapper from "../ui/structure/ComponentWrapper";
 
