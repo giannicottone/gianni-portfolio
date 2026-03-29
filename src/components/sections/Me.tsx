@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Section from "../ui/Section";
-import SectionHeader from "../ui/SectionHeader";
+import SectionHeader from "../ui/primitives/SectionHeader";
+import ComponentWrapper from "../ui/structure/ComponentWrapper";
 
 export default function Me() {
   return (
-    <Section>
+    <ComponentWrapper>
       <div className="flex flex-col md:flex-row items-center">
         {/* LEFT: Image */}
         <div className="flex-1 flex justify-center">
@@ -13,7 +13,7 @@ export default function Me() {
             alt="Gianni Cottone"
             width={400}
             height={500}
-            className="rounded-2xl shadow-md"
+            className="rounded-2xl h-auto shadow-md"
           />
         </div>
 
@@ -38,6 +38,6 @@ export default function Me() {
           </div>
         </div>
       </div>
-    </Section>
+    </ComponentWrapper>
   );
 }

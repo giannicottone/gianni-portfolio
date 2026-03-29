@@ -1,5 +1,4 @@
 // components/layout/Section.tsx
-import Container from "./Container";
 
 export default function Section({
   children,
@@ -9,8 +8,8 @@ export default function Section({
   className?: string;
 }) {
   return (
-    <section className={`py-16 ${className}`}>
-      <Container>{children}</Container>
+    <section className={`py-4 md:8 ${className}`}>
+      {children}
     </section>
   );
 }

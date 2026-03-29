@@ -1,10 +1,11 @@
-import Section from "@/components/ui/Section";
-import SectionHeader from "@/components/ui/SectionHeader";
+import Section from "@/components/ui/structure/Section";
+import SectionHeader from "@/components/ui/primitives/SectionHeader";
 import ProjectCard from "@/components/cards/ProjectCard";
+import ComponentWrapper from "../ui/structure/ComponentWrapper";
 
 export default function Projects() {
   return (
-    <Section>
+    <ComponentWrapper>
       <SectionHeader title="Featured Work" />
       <div className="flex flex-col gap-4">
         <ProjectCard
@@ -17,6 +18,6 @@ export default function Projects() {
           ]}
         />
       </div>
-    </Section>
+    </ComponentWrapper>
   );
 }

@@ -1,4 +1,4 @@
-import Container from "@/components/ui/Container";
+import Container from "@/components/ui/structure/Container";
 import Hero from "@/components/sections/Hero";
 import Projects from "@/components/sections/Projects";
 import Now from "@/components/sections/Now";
