@@ -8,11 +8,13 @@ export default function Surface({
 }) {
   return (
     <div className="
-      rounded-2xl
-      border border-neutral-800
-      bg-[var(--surface)]
-      backdrop-blur
-      p-6
+    bg-[rgba(var(--surface),0.5)]
+    backdrop-blur-md
+    rounded-2xl p-8
+
+    transition-all duration-200 ease-out
+
+    hover:bg-[rgba(var(--surface),0.6)]
     ">  
       {children}
     </div>

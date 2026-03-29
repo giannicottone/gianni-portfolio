@@ -5,8 +5,8 @@
 :root {
 /* Component Colors */
   --background: #9baadb;
-  --surface: #dde3ec80; 
-  --card: #eef2f7cc;    
+  --surface: 221, 227, 236;
+  --card: 238, 242, 247;  
 /* Text Colors */
   --foreground: #1f1d1d;
   --muted: #5f636b;
