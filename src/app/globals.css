@@ -4,9 +4,9 @@
 /* Theme */
 :root {
 /* Component Colors */
-  --background: #c9d1dc;
-  --surface: #dde3ec;
-  --card: #eef2f7;
+  --background: #9baadb;
+  --surface: #dde3ec80; 
+  --card: #eef2f7cc;    
 /* Text Colors */
   --foreground: #1f1d1d;
   --muted: #5f636b;
