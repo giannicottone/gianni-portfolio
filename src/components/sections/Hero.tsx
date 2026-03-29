@@ -1,7 +1,8 @@
-import Section from "../ui/Section";
+import ComponentWrapper from "../ui/structure/ComponentWrapper";
+import Section from "../ui/structure/Section";
 export default function Hero() {
   return (
-    <Section>
+    <ComponentWrapper>
   <div className="flex flex-col gap-4">
     <h1 className="text-hero">
       I don{"'"}t just write code.
@@ -15,6 +16,6 @@ export default function Hero() {
       </span>
     </p>
   </div>
-</Section>
+</ComponentWrapper>
   );
 }

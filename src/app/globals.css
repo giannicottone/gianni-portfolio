@@ -3,18 +3,16 @@
 
 /* Theme */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --muted: #6b7280;
+/* Component Colors */
+  --background: #9baadb;
+  --surface: 221, 227, 236;
+  --card: 238, 242, 247;  
+/* Text Colors */
+  --foreground: #1f1d1d;
+  --muted: #5f636b;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --muted: #9ca3af;
-  }
-}
+
 
 /* Base */
 html,
@@ -33,17 +31,11 @@ body {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
 /* Components */
 @layer components {
   /* Buttons */
   .btn {
-    @apply inline-flex items-center justify-center px-4 py-2 rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors;
+    @apply inline-flex items-center justify-center px-4 py-2 rounded-md text-white transition-colors;
   }
 
   /* Typography */
@@ -64,4 +56,5 @@ body {
     @apply text-sm;
     color: var(--muted);
   }
+  
 }

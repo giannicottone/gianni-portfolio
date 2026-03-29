@@ -1,9 +1,10 @@
-import Section from "@/components/ui/Section";
-import SectionHeader from "@/components/ui/SectionHeader";
+import Section from "@/components/ui/structure/Section";
+import SectionHeader from "@/components/ui/primitives/SectionHeader";
+import ComponentWrapper from "../ui/structure/ComponentWrapper";
 
 export default function Now() {
   return (
-    <Section>
+    <ComponentWrapper>
       <SectionHeader title="Right Now" />
       <ul className="text-body list-disc pl-5 flex flex-col gap-2">
       <li>
@@ -16,6 +17,6 @@ export default function Now() {
         Iterating on this site to better reflect how I think and build as an engineer
       </li>
     </ul>
-    </Section>
+    </ComponentWrapper>
   );
 }

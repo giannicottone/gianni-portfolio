@@ -2,7 +2,7 @@ import Hero from "@/components/sections/Hero";
 import Me from "@/components/sections/Me";
 import Now from "@/components/sections/Now";
 import Projects from "@/components/sections/Projects";
-import HowIOperate from "@/components/sections/ThisIsTheWay";
+import HowIOperate from "@/components/sections/Mindset";
 
 const socialLinks = [
   {
