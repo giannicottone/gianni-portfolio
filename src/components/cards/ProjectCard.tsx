@@ -8,7 +8,7 @@ export default function ProjectCard({
   details: string[];
 }) {
   return (
-    <div className="border rounded-xl p-6">
+    <div className="border rounded-xl p-6 bg-[var(--card)]">
       <div className="flex flex-col md:flex-row md:items-start gap-4">
         {/* LEFT */}
         <div className="flex flex-col gap-2">

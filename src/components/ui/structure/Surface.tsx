@@ -10,10 +10,10 @@ export default function Surface({
     <div className="
       rounded-2xl
       border border-neutral-800
-      bg-neutral-100
+      bg-[var(--surface)]
       backdrop-blur
       p-6
-    ">
+    ">  
       {children}
     </div>
   );
