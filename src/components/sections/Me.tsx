@@ -1,6 +1,8 @@
 import Image from "next/image";
 import SectionHeader from "../ui/primitives/SectionHeader";
 import ComponentWrapper from "../ui/structure/ComponentWrapper";
+import Button from "../ui/primitives/Button";
+import LinkButton from "../ui/primitives/LinkButton";
 
 export default function Me() {
   return (
@@ -35,6 +37,10 @@ export default function Me() {
             <p className="text-body">
               Horror Movies · Cycling · Escape Rooms · Fighting Games
             </p>
+          </div>
+          <div className="flex flex-row gap-4">
+          <LinkButton label="View Resume" href="/Gianni_Cottone_Resume.pdf"/>
+          <LinkButton label = "Linkedin" href = "https://linkedin.com/in/gianni-cottone" />
           </div>
         </div>
       </div>
