@@ -35,7 +35,7 @@ export default function Me() {
               Interests
             </p>
             <p className="text-body">
-              Horror Movies · Cycling · Escape Rooms · Fighting Games
+              Trying New Foods · Horror Movies · Cycling · Escape Rooms · Fighting Games
             </p>
           </div>
           <div className="flex flex-row gap-4">
