@@ -8,7 +8,7 @@ export default function Now() {
       <SectionHeader title="Right Now" />
       <Card>
       <div className="grid gap-6">
-      <ul className="text-body list-disc pl-5 flex flex-col gap-2">
+<ul className="text-body list-disc pl-5 flex flex-col gap-2 md:max-w-prose">
       <li>
         Learning new technologies with a focus on underlying systems and behavior
       </li>
