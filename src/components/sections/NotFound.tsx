@@ -9,9 +9,9 @@ export default function NotFound() {
         <h1 className="text-hero">Page not found</h1>
         <p className="text-body">
           The page you&apos;re looking for doesn&apos;t exist.
-        </p>
-        <LinkButton label="Go Home" href="/" external={false} />
+        </p>  
       </Card>
+      <LinkButton label="Go Home" href="/" external={false} />
     </ComponentWrapper>
   );
 }
