@@ -4,11 +4,13 @@ import Surface from "./Surface";
 
 export default function ComponentWrapper({
   children,
+  className = "",
 }: {
   children: React.ReactNode;
+  className?: string;
 }) {
   return (
-    <Section>
+    <Section className={className}>
         <Container>
             <Surface>
                 {children}
