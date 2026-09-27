@@ -4,8 +4,8 @@ import ComponentWrapper from "@/components/ui/structure/ComponentWrapper";
 
 export default function NotFound() {
   return (
-    <ComponentWrapper>
-      <div className="flex flex-col gap-6">
+    <ComponentWrapper className="flex min-h-screen items-center">
+      <div className="mx-auto flex w-full max-w-3xl flex-col gap-6">
         <Card>
           <div className="flex flex-col gap-4">
             <h1 className="text-hero">Page not found</h1>
@@ -14,7 +14,7 @@ export default function NotFound() {
             </p>
           </div>
         </Card>
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-row justify-center gap-4">
           <LinkButton label="Go Home" href="/" external={false} />
         </div>
       </div>
